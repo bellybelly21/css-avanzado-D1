@@ -1,0 +1,215 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+    width: 100%;
+}
+
+/**Nav**/
+
+nav{
+    display: flex;
+    padding: 0 40px;
+    flex-direction: row;
+    height: 10vh;
+    background-color: rgb(24, 24, 24);
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-logo{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.menu-icono{
+color: white;
+}
+
+.bienvenido{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 14px;
+    column-gap: 8px;
+}
+
+.bienvenido span{
+    font-weight: 600;
+}
+
+/**Arkenco Admin**/
+
+.arkenco-datos{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 65px;
+    border-bottom: 2px solid rgb(222, 222, 222);
+    padding: 20px 20px;
+}
+
+.arkenco-admin{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.actividad{
+    font-size: 12px;
+    color: rgb(144, 144, 144);
+}
+
+.iconos{
+    color: rgb(114, 114, 114);
+    display: inherit;
+    gap: 16px;
+}
+
+h5{
+    font-size: 16px;
+    color: rgb(24, 24, 24);
+    font-weight: 500;
+}
+
+.arkenco-admin img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+/**Botón**/
+
+.boton-agregar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    border-bottom: 2px solid rgb(222, 222, 222);
+
+}
+.boton-agregar button{
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 48px;
+    border: none;
+    background-color: rgb(254, 222, 222);
+}
+
+.boton-agregar p{
+    padding-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+/** Personas**/
+
+.personas{
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+    border-right: 2px solid rgb(222, 222, 222);
+    overflow-y: auto;
+}
+
+.persona img{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.persona{
+    display: inherit;
+    flex-direction: row;
+    padding: 16px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 8px;
+    border-bottom: 2px solid rgb(222, 222, 222);
+}
+
+.nombre-fecha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 4px;
+}
+
+.fecha{
+    font-size: 12px;
+    color: rgb(144, 144, 144);
+}
+
+.mensaje-persona{
+    white-space: nowrap; 
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: rgb(114, 114, 114);
+}
+
+/**Main y otros**/
+
+main{
+    display: flex;
+    flex-direction: row;
+    height:90vh;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    column-gap: 30px;
+}
+
+.content h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    padding: 20px 0px 10px;
+}
+
+.content p{
+    width: 450px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    color: rgb(79, 79, 79);
+}
+
+.imagen span{
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: rgb(79, 79, 79);
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: -2px;
+}
+
+.imagen{
+    padding: 20px 40px;
+    background-color: rgb(254, 222, 222);
+    border-radius: 16px;
+}
